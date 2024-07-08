@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 170px;
+}
+
+marquee {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    background-color:cadetblue;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.stopwatch {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color:#5bc0de;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: transform 0.2s;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+#stop {
+    background-color: #d9534f;
+    color: white;
+}
+
+#lap {
+    background-color: #5bc0de;
+    color: white;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#laps div {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: auto;
+    font-family: 'Arial', sans-serif;
+}
